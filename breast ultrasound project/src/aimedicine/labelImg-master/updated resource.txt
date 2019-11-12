@@ -1,0 +1,34 @@
+pyrcc5 -o resources.py resources.qrc
+
+activate on venv2\scripts aimedicine
+
+import sys
+sys.setrecursionlimit(1000000)
+
+chcp 65001 
+
+python -m pip install --upgrade pip
+pip install -U numpy
+
+
+pip install pyinstaller
+
+AttributeError: 'str' object has no attribute 'items'
+python -m pip install -U setuptools
+
+pyinstaller.exe --onefile --windowed labelimg.py
+
+
+pyinstaller.exe --hidden-import=pywt._extensions._cwt --hidden-import=queue -w --onefile --windowed labelimg.py
+
+pyinstaller.exe --hidden-import=queue -w --onefile --windowed labelimg.spec
+
+
+spec. add 
+hiddenimports=['pywt._extensions._cwt'],
+
+
+
+pyinstaller.exe --hidden-import=pywt._extensions._cwt --hidden-import=queue -F labelimg.py
+
+pyinstaller.exe --hidden-import=pywt._extensions._cwt --hidden-import=queue -w --onefile --windowed labelimg.py

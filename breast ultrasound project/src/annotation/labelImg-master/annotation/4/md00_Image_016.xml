@@ -1,0 +1,26 @@
+<annotation>
+	<folder>4</folder>
+	<filename>md00_Image_016.jpg</filename>
+	<path>D:\app\labelImg-master\breast dataset\Demo\4\md00_Image_016.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>880</width>
+		<height>650</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>BIRADS_4</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>51</xmin>
+			<ymin>190</ymin>
+			<xmax>243</xmax>
+			<ymax>382</ymax>
+		</bndbox>
+	</object>
+</annotation>

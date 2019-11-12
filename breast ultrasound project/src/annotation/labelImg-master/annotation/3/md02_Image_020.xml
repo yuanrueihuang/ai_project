@@ -1,0 +1,14 @@
+<annotation>
+	<folder>3</folder>
+	<filename>md02_Image_020.jpg</filename>
+	<path>D:\app\labelImg-master\breast dataset\Demo\3\md02_Image_020.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>880</width>
+		<height>650</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>
