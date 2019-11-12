@@ -45,7 +45,7 @@ python-dateutil==2.8.0
 PyWavelets==1.0.2
 pywin32==224
 pywin32-ctypes==0.2.0
-PyYAML==3.13
+PyYAML==5.1
 scikit-image==0.14.2
 scipy==1.2.1
 six==1.12.0
